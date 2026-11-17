@@ -1,0 +1,217 @@
+{
+  "title": "Gestione pratiche dello sportello",
+  "description": "Prototipo navigabile per consultare, filtrare e registrare pratiche inventate, con stato e scadenza.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo delle pratiche e delle scadenze imminenti.",
+      "metrics": [
+        {
+          "label": "Pratiche totali",
+          "value": "24"
+        },
+        {
+          "label": "In lavorazione",
+          "value": "9"
+        },
+        {
+          "label": "In attesa",
+          "value": "6"
+        },
+        {
+          "label": "Completate",
+          "value": "9"
+        },
+        {
+          "label": "In scadenza entro 7 giorni",
+          "value": "4"
+        }
+      ],
+      "columns": [
+        "Stato",
+        "Pratiche"
+      ],
+      "rows": [
+        [
+          "In lavorazione",
+          "9"
+        ],
+        [
+          "In attesa",
+          "6"
+        ],
+        [
+          "Completata",
+          "9"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "elenco-pratiche",
+      "title": "Elenco pratiche",
+      "description": "Tabella filtrabile per stato e scadenza, con dati dimostrativi di Lumo e Vela.",
+      "metrics": [
+        {
+          "label": "Risultati",
+          "value": "24"
+        }
+      ],
+      "columns": [
+        "Codice pratica",
+        "Richiedente",
+        "Organizzazione",
+        "Oggetto",
+        "Data ricezione",
+        "Stato",
+        "Scadenza"
+      ],
+      "rows": [
+        [
+          "P-035-001",
+          "Nubi",
+          "Cerchio Lumo",
+          "Rilascio attestazione",
+          "2025-04-02",
+          "In lavorazione",
+          "2025-04-16"
+        ],
+        [
+          "P-035-002",
+          "Vela",
+          "Orto Nubi",
+          "Aggiornamento dati",
+          "2025-04-03",
+          "In attesa",
+          "2025-04-18"
+        ],
+        [
+          "P-035-003",
+          "Lumo",
+          "Radura Vela",
+          "Richiesta informativa",
+          "2025-04-04",
+          "Completata",
+          "2025-04-11"
+        ],
+        [
+          "P-035-004",
+          "Sole",
+          "Bottega Nubi",
+          "Certificazione di residenza",
+          "2025-04-05",
+          "In lavorazione",
+          "2025-04-19"
+        ],
+        [
+          "P-035-005",
+          "Riva",
+          "Officina Lumo",
+          "Rinnovo autorizzazione",
+          "2025-04-06",
+          "In attesa",
+          "2025-04-22"
+        ],
+        [
+          "P-035-006",
+          "Menta",
+          "Giardino Vela",
+          "Richiesta informativa",
+          "2025-04-07",
+          "Completata",
+          "2025-04-14"
+        ],
+        [
+          "P-035-007",
+          "Piuma",
+          "Cerchio Nubi",
+          "Rilascio attestazione",
+          "2025-04-08",
+          "In lavorazione",
+          "2025-04-21"
+        ],
+        [
+          "P-035-008",
+          "Quarzo",
+          "Radura Lumo",
+          "Aggiornamento dati",
+          "2025-04-09",
+          "In attesa",
+          "2025-04-23"
+        ],
+        [
+          "P-035-009",
+          "Timo",
+          "Bottega Vela",
+          "Certificazione di residenza",
+          "2025-04-10",
+          "Completata",
+          "2025-04-17"
+        ],
+        [
+          "P-035-010",
+          "Brina",
+          "Officina Nubi",
+          "Rinnovo autorizzazione",
+          "2025-04-11",
+          "In lavorazione",
+          "2025-04-25"
+        ],
+        [
+          "P-035-011",
+          "Cobalto",
+          "Giardino Lumo",
+          "Richiesta informativa",
+          "2025-04-12",
+          "In attesa",
+          "2025-04-26"
+        ],
+        [
+          "P-035-012",
+          "Marea",
+          "Cerchio Vela",
+          "Rilascio attestazione",
+          "2025-04-13",
+          "Completata",
+          "2025-04-20"
+        ]
+      ],
+      "form": [
+        "Codice pratica",
+        "Richiedente",
+        "Organizzazione",
+        "Oggetto",
+        "Data ricezione",
+        "Stato",
+        "Scadenza"
+      ]
+    },
+    {
+      "id": "nuova-pratica",
+      "title": "Nuova pratica",
+      "description": "Inserimento di una pratica dimostrativa con i dati essenziali.",
+      "metrics": [],
+      "columns": [
+        "Codice pratica",
+        "Richiedente",
+        "Organizzazione",
+        "Oggetto",
+        "Data ricezione",
+        "Stato",
+        "Scadenza"
+      ],
+      "rows": [],
+      "form": [
+        "Codice pratica",
+        "Richiedente",
+        "Organizzazione",
+        "Oggetto",
+        "Data ricezione",
+        "Stato",
+        "Scadenza"
+      ]
+    }
+  ]
+}
